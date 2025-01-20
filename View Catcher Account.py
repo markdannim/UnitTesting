@@ -53,7 +53,7 @@ with webdriver.Edge(service=service, options=options) as driver:
         print("View Profile button clicked successfully")
 
         time.sleep(10)
-        print("UT-023 - VIEW ACCOUNT - Success")
+        print("VIEW ACCOUNT - Success")
 
 
     except Exception as e:
