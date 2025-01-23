@@ -48,12 +48,11 @@ with webdriver.Edge(service=service, options=options) as driver:
             EC.element_to_be_clickable((By.XPATH, '//button[text()="Decline"]'))
         )
 
-        # Click the "Accept" button
+        # Click the "Decline" button
         decline_button.click()
-        print("Decline button clicked successfully")
 
         time.sleep(10)
-        print("UT-025 - Decline Applicant - Success")
+        print("Decline Applicant - Success")
 
 
     except Exception as e:

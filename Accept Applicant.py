@@ -53,7 +53,7 @@ with webdriver.Edge(service=service, options=options) as driver:
         print("Accept button clicked successfully")
 
         time.sleep(10)
-        print("UT-023 - Accept Applicant - Success")
+        print("Accept Applicant - Success")
 
 
     except Exception as e:

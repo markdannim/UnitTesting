@@ -40,10 +40,9 @@ with webdriver.Edge(service=service, options=options) as driver:
 
         # Perform a click action
         target_element.click()
-        print("Notification Button Clicked")
 
         time.sleep(5)
-        print("UT-032 - View Notification - Success")
+        print("View Notification - Success")
 
     finally:
         # Close the browser
