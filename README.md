@@ -1,1 +1,1 @@
-Unit Testing of Errand Catcher: A Web-based Application for Errand Services
+Unit Testing and Integration Testing of Errand Catcher: A Web-based Application for Errand Services
