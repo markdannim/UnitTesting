@@ -37,7 +37,6 @@ with webdriver.Edge(service=service, options=options) as driver:
         login_button.click()
         print("Successfully Login")
 
-
         time.sleep(5)
 
         print("UT-003 Login - Valid Entries - Success")
