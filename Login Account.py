@@ -18,7 +18,7 @@ service = EdgeService()
 with webdriver.Edge(service=service, options=options) as driver:
     try:
         # Navigate to the login page
-        driver.get('http://localhost:3000/sign-in')
+        driver.get('http://errand-catcher.vercel.app/sign-in')
 
         # Find the username and enter the value
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, 'username')))
